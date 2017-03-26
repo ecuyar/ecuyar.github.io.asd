@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+	<title>Personal Page</title>
+	<meta charset="utf-8">
+	<h1>Registration Form</h1>
+
+</head>
+<body>
+
+	<nav>
+	<hr>
+	
+	You can navigate on the pages by using given links below.
+
+	<br>
+	<br>
+
+	<a href="main.html">Home</a>
+	<a href="registration.html">Registration</a>
+	<a href="gallery.html">Gallery</a>
+	<a href="kayseri.html">Kayseri</a>
+	<a href="contact.html">Contact</a>
+	<a href="about.html">About</a>
+	
+	</nav>
+	<hr>
+	
+	<form action="" method="post" enctype="multipart/form-data">
+		
+	 <p>Please fill in the following information:</p>
+
+		Name:<br>            
+	    <input type="text" id="name" name="name"><br>
+
+	    Middle Name:<br>
+	    <input type="text" id="mname" name="mname" placeholder="if you have"> <br>
+
+		Surname:<br>
+		<input type="text" id="sname" name="sname"><br>
+
+		<br>
+        
+		<p>What is your gender?</p>
+        <input type="radio" name="gender" value="male">Male <br>
+		<input type="radio" name="gender" value="female">Female <br>
+
+		<br>
+
+		<p>Your registration informations:</p>
+		<label for= "email">Email:</label>
+		 <input type="email" id="email" name="email"><br>
+
+		 <label for="password">Password:</label>
+		 <input type="password" id="password" name="Password"><br>
+
+ 
+       <br>        
+
+		 <label for="birth">Date of Birth:</label>
+		 <input type="date" id="birth" name="birth"><br>
+
+		<br>       
+
+            <p> In which city, do you live? </p>
+			<select name="cities">
+	        <option value="Ankara">Ankara</option>
+	        <option value="İstanbul">İstanbul</option>
+	        <option value="Kayseri">Kayseri</option>
+	        <option value="Adana">Adana</option>
+	        <option value="Kahramanmaraş">Kahramanmaraş</option>
+	        <option value="Sivas">Sivas</option>
+	        <option value="Aydın">Aydın</option>
+	        <option value="İzmir">İzmir</option>
+	        <option value="Erzurum">Erzurum</option>
+	        <option value="Van">Van</option>
+	        <option value="Zonguldak">Zonguldak</option>
+	        <option value="Diğer">Diğer</option>
+	        </select>
+
+        <br>
+        <br>  
+
+	        <p>What is your interests?</p>
+	        <input type="checkbox" name="interest" value="computing">Computing<br>
+	        <input type="checkbox" name="interest" value="swimming">Swimming<br>
+	        <input type="checkbox" name="interest" value="puzzle">Puzzle<br>
+	        <input type="checkbox" name="interest" value="football">Football<br>
+	        <input type="checkbox" name="interest" value="chess">Chess<br>
+	        <input type="checkbox" name="interest" value="kayaking">Kayaking<br>
+	        <input type="checkbox" name="interest" value="painting">Painting<br>
+	        <input type="checkbox" name="interest" value="reading">Reading<br>
+
+        <br>
+            <p>Please describe yourself:</p>
+            <textarea rows="5" cols="60">
+            (About Me Area)
+            </textarea>
+
+        <br>
+        <br>      
+            
+            <p>You can send your photo by using this feature:</p>
+            <input type="file" name="photo"><br>
+
+        <br>
+        <br>
+
+            İşlemleriniz bittiyse SON tuşuna basarak formunuzu gönderebilirsiniz.<br>
+            <input type="submit" name="submit" value="SON">
+
+	</form>
+</body>
