@@ -15,11 +15,11 @@
 	<br>
 	<br>
 
-	<a href="https://ecuyar.github.io/">Home</a>
-	<a href="registration.html">Registration</a>
-	<a href="gallery.html">Gallery</a>
-	<a href="kayseri.html">Kayseri</a>
-	<a href="contact.html">Contact</a>
+	<a href="https://ecuyar.github.io/">Home|</a>
+	<a href="registration.html">Registration|</a>
+	<a href="gallery.html">Gallery|</a>
+	<a href="kayseri.html">Kayseri|</a>
+	<a href="contact.html">Contact|</a>
 	<a href="about.html">About</a>
 	
 	</nav>
