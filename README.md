@@ -10,7 +10,8 @@
 	<nav>
 	<hr>
 	
-	You can navigate on the pages by using given links below.
+	You can navigate on the pages by using given links below.<br>
+	Please select a section.
 
 	<br>
 	<br>
