@@ -26,11 +26,7 @@
 	<hr>
 
 On this project, I tried to make a webpage using HTML codes. Enjoy it :)<br>
-█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br>
-█░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█<br>
-█░░║║║╠─║─║─║║║║║╠─░░█<br>
-█░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█<br>
-█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+<a href:"http://www.clipartkid.com/images/202/pastor-s-welcome-saint-mary-magdalen-fnS43p-clipart.jpg">
 
 
 <br>
