@@ -26,7 +26,7 @@
 	<hr>
 
 On this project, I tried to make a webpage using HTML codes. Enjoy it :)<br>
-<img src="http://www.clipartkid.com/images/202/pastor-s-welcome-saint-mary-magdalen-fnS43p-clipart.jpg">
+<img src="https://s-media-cache-ak0.pinimg.com/originals/ef/b7/22/efb722a1b4fbf928038ee3ec06b74935.jpg">
 
 
 <br>
