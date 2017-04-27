@@ -3,33 +3,144 @@
 <head>
 	<title>Personal Page</title>
 	<meta charset="utf-8">
-	<h1>Photos</h1>
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+	<style>
+
+		* {
+    		box-sizing: border-box;
+    	}
+		
+		ul {
+		    margin: 0;
+		    padding: 0;
+		    overflow: hidden;
+		    background-color: #FF4242;
+		}
+
+		li a {
+			float: left;
+			display: inline;
+		    display: block;
+		    color: black;
+		    text-align: center;
+		    padding: 14px 16px;
+		    text-decoration: none;
+		    border-right: 1px solid #bbb;
+		}
+
+		li a:hover:not(.active) {
+	    	background-color: #E1EDB9;
+		}
+
+		.active {
+	    	background-color: #D4EE5E;
+
+		}
+
+		h2{
+			font-family:cursive;
+			text-align:center;
+		}
+
+
+		div.gallery {
+		    margin: 50px;
+		    border: 1px solid #ccc;
+		    float: left;
+		    width: 200px;
+		}
+
+		div.gallery:hover {
+    		border: 1px solid #777;
+		}
+
+		div.gallery img {
+    		width: 120%;
+    		height: auto;
+		}
+
+		div.desc {
+    		padding: 15px;
+    		text-align: center;
+		}
+
+		body{
+			background-color:#e5ead7;
+</style>
+	
 
 </head>
 <body>
 
+	<h2>Photos</h2>
+
 	<nav>
-	<hr>
-	
-	You can navigate on the pages by using given links below.
-
-	<br>
-	<br>
-
-	<a href="https://ecuyar.github.io/">Home</a>
-	<a href="registration.html">Registration</a>
-	<a href="gallery.html">Gallery</a>
-	<a href="kayseri.html">Kayseri</a>
-	<a href="contact.html">Contact</a>
-	<a href="about.html">About</a>
-	
+	      <div class="container-fluid">
+        	<ul>
+        		<li>
+					<a class="active" href="main.html">Home</a>
+					<a href="registration.html">Registration</a>
+					<a href="gallery.html">Gallery</a>
+					<a href="kayseri.html">Kayseri</a>
+					<a href="contact.html">Contact</a>
+					<a href="about.html">About</a> 
+				</li>
+			</ul>
+		</div>
 	</nav>
 	<hr>
 	
 	<br>
-<img src="1.jpg" alt="Mountain View"><br>
-<img src="2.jpg" alt="Mountain View"><br>
-<img src="3.jpg" alt="Mountain View"><br>
-<img src="4.jpg" alt="Mountain View"><br>
+
+
+
+	<div class="container">
+	<div class="row">
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="1.jpg" target="_blank">
+          <img src="1.jpg" alt=" " style="width:100%">
+          <div class="caption">
+            <p>House On The Lake</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="2.jpg" target="_blank">
+          <img src="2.jpg" alt=" " style="width:100%">
+          <div class="caption">
+            <p>Fall</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="3.jpg" target="_blank">
+          <img src="3.jpg" alt=" " style="width:100%">
+          <div class="caption">
+            <p>Mountain Houses</p>
+          </div>
+          </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="4.jpg" target="_blank">
+          <img src="4.jpg" alt=" " style="width:100%">
+          <div class="caption">
+            <p>Snow And People</p>
+         </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 </body>
 </html>

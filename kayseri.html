@@ -3,44 +3,191 @@
 <head>
 	<title>Personal Page</title>
 	<meta charset="utf-8">
-	<h1>Kayseri</h1>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+	<style>
+
+		* {
+    		box-sizing: border-box;
+		}
+
+		ul {
+		    margin: 0;
+		    padding: 0;
+		    overflow: hidden;
+		    background-color: #FF4242;
+		}
+
+		
+		li a {
+			float: left;
+			display: inline;
+		    display: block;
+		    color: black;
+		    text-align: center;
+		    padding: 14px 16px;
+		    text-decoration: none;
+		    border-right: 1px solid #bbb;
+		}
+
+		li a:hover:not(.active) {
+	    	background-color: #E1EDB9;
+		}
+
+		.active {
+	    	background-color: #D4EE5E;
+
+		}
+
+		h2{
+			font-family:cursive;
+			text-align:center;
+		}
+
+		body{
+			background-color:#e5ead7;
+		}
+
+		div.gallery img{
+			width: 20%;
+			border-style: solid;
+			border-color: red;
+			border-width: 3px;
+			margin:5px;
+		}
+
+		div.gallery {
+		    margin: 50px;
+		    border: 1px solid #ccc;
+		    float: left;
+		    width: 250px;
+		}
+
+		div.gallery img {
+    		width: 120%;
+    		height: auto;
+    	}
+
+    	div.history{
+
+    	}
+
+    	[class*="col-"] {
+		    float: left;
+		    padding: 15px;
+		    border: "";
+		}
+
+		.col-1 {width: 8.33%;}
+		.col-2 {width: 16.66%;}
+		.col-3 {width: 25%;}
+		.col-4 {width: 33.33%;}
+		.col-5 {width: 41.66%;}
+		.col-6 {width: 50%;}
+		.col-7 {width: 58.33%;}
+		.col-8 {width: 66.66%;}
+		.col-9 {width: 75%;}
+		.col-10 {width: 83.33%;}
+		.col-11 {width: 91.66%;}
+		.col-12 {width: 100%;}
+    	
+		}
+				
+
+		.row::after {
+		    content: "";
+		    clear: both;
+		    display: table;
+		}
+</style>
+	
 
 </head>
 <body>
 
-	<nav>
-	<hr>
+	<h2>Kayseri</h2>
 	
-	You can navigate on the pages by using given links below.
-
-	<br>
-	<br>
-
-	<a href="https://ecuyar.github.io/">Home</a>
-	<a href="registration.html">Registration</a>
-	<a href="gallery.html">Gallery</a>
-	<a href="kayseri.html">Kayseri</a>
-	<a href="contact.html">Contact</a>
-	<a href="about.html">About</a>
+	<nav>
+	    <div class="container-fluid">
+        	<ul>
+        		<li>
+					<a class="active" href="main.html">Home</a>
+					<a href="registration.html">Registration</a>
+					<a href="gallery.html">Gallery</a>
+					<a href="kayseri.html">Kayseri</a>
+					<a href="contact.html">Contact</a>
+					<a href="about.html">About</a> 
+				</li>
+			</ul>
+		</div>
 	
 	</nav>
-	<hr>
+
+	
 </head>
+
 <body>
-<h3>Short Information</h3>
-<div>Kayseri is a large and industrialised city in Central Anatolia, Turkey. It is the seat of Kayseri Province. The city of Kayseri, as defined by the boundaries of Kayseri Metropolitan Municipality, is structurally composed of five metropolitan districts, the two core districts of Kocasinan and Melikgazi, and since 2004, also Hacılar, İncesu and Talas.
-Kayseri is located at the foot of the extinct volcano Mount Erciyes that towers 3,916 metres (12,848 feet) over the city. The city is often cited in the first ranks among Turkey's cities that fit the definition of Anatolian Tigers.
-The city retains a number of historical monuments, including several from the Seljuk period. While it is generally visited en route to the international tourist attractions of Cappadocia, Kayseri has many visitor's attractions by its own right: Seljuk and Ottoman era monuments in and around the city centre, Mount Erciyes as a trekking and alpinism centre, Zamantı River as a rafting centre, the historic sites of Kültepe, Ağırnas, Talas and Develi, to name a few. Kayseri is served by Erkilet International Airport and is home to Erciyes University.
-According to the Turkish Statistical Institute, as of 2011 the city of Kayseri had a population of 844,656; while Kayseri Province had a population of 1,234,651.</div>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3" style="width:100px margin=15px">
+				<a href="kayserisiyasi.png">
+				<img src="kayserisiyasi.png"></a>
+			</div>
 
-<br>
+			<div class="col-9">
 
-<h3>Pictures</h3>
+			<h3>Short Information</h3>
 
-<img src="k1.jpg" alt="k2.jpg"><br>
-<img src="k2.jpg" alt="k3.jpg"><br>
-<img src="k3.jpg" alt="k4.jpg"><br>
-<img src="k4.jpg" alt="k1.jpg"><br>
+				<div class="col-md-9">
+				Kayseri is a large and industrialised city in Central Anatolia, Turkey. It is the seat of Kayseri Province. The city of Kayseri, as defined by the boundaries of Kayseri Metropolitan Municipality, is structurally composed of five metropolitan districts, the two core districts of Kocasinan and Melikgazi, and since 2004, also Hacılar, İncesu and Talas.
+				Kayseri is located at the foot of the extinct volcano Mount Erciyes that towers 3,916 metres (12,848 feet) over the city. The city is often cited in the first ranks among Turkey's cities that fit the definition of Anatolian Tigers.
+				The city retains a number of historical monuments, including several from the Seljuk period. While it is generally visited en route to the international tourist attractions of Cappadocia, Kayseri has many visitor's attractions by its own right: Seljuk and Ottoman era monuments in and around the city centre, Mount Erciyes as a trekking and alpinism centre, Zamantı River as a rafting centre, the historic sites of Kültepe, Ağırnas, Talas and Develi, to name a few. Kayseri is served by Erkilet International Airport and is home to Erciyes University.
+				According to the Turkish Statistical Institute, as of 2011 the city of Kayseri had a population of 844,656; while Kayseri Province had a population of 1,234,651.
+				</div>
+			</div>
+		</div>
+
+
+	
+			
+
+
+
+
+		<gallery>
+
+		<div class="container-fluid">
+
+			<h3>Pictures</h3>
+			
+			<div class="gallery">
+				<a href="k1.jpg">
+				<img src="k1.jpg"  alt="k2.jpg"></a>
+			</div>
+
+				<a href="k2.jpg">
+				<div class="gallery">
+				<img src="k2.jpg"  alt="k3.jpg"></a>
+			</div>
+
+				<a href="k3.jpg">
+				<div class="gallery">
+				<img src="k3.jpg"  alt="k4.jpg"></a>
+			</div>
+
+				<a href="k4.jpg">
+			<div class="gallery">
+				<img src="k4.jpg"  alt="k1.jpg"></a>
+			</div>
+
+		</div>
+
+		
+
+		</gallery>
+
 
 </body>
 </html>

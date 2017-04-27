@@ -3,40 +3,120 @@
 <head>
 	<title>Personal Page</title>
 	<meta charset="utf-8">
-	<h1>Contact Me</h1>
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+	<style>
+
+		* {
+    		box-sizing: border-box;
+    	}
+    	
+		ul {
+		    margin: 0;
+		    padding: 0;
+		    overflow: hidden;
+		    background-color: #FF4242;
+		}
+
+		
+		li a {
+			float: left;
+			display: inline;
+		    display: block;
+		    color: black;
+		    text-align: center;
+		    padding: 14px 16px;
+		    text-decoration: none;
+		    border-right: 1px solid #bbb;
+		}
+
+		li a:hover:not(.active) {
+	    	background-color: #E1EDB9;
+		}
+
+		.active {
+	    	background-color: #D4EE5E;
+
+		}
+
+		h2{
+			font-family:cursive;
+			text-align:center;
+		}
+
+		input[type=text], select, p {
+		    width: 15%;
+		    padding: 12px 20px;
+		    margin: 8px 0;
+		    display: inline-block;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    box-sizing: border-box;
+		}
+
+		input[type=submit] {
+		    width: 10%;
+		    background-color: #4CAF50;
+		    color: white;
+		    padding: 14px 20px;
+		    margin: 8px, 8px, 8px, 8px;
+		    border: none;
+		    border-radius: 4px;
+		    cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+    		background-color: #45a049;
+		}
+
+		div fieldset {
+		    border-radius: 5px;
+		    background-color: #f2f2f2;
+		    padding: 20px;
+		}
+
+		body{
+			background-color:#e5ead7;
+
+</style>
+	
 
 </head>
 <body>
 
+	<h2>Contact Me</h2>
+
 	<nav>
-	<hr>
-	
-	You can navigate on the pages by using given links below.
-
-	<br>
-	<br>
-
-	<a href="main.html">Home</a>
-	<a href="registration.html">Registration</a>
-	<a href="gallery.html">Gallery</a>
-	<a href="kayseri.html">Kayseri</a>
-	<a href="contact.html">Contact</a>
-	<a href="about.html">About</a>
-	
+	      <div class="container-fluid">
+        	<ul>
+        		<li>
+					<a class="active" href="main.html">Home</a>
+					<a href="registration.html">Registration</a>
+					<a href="gallery.html">Gallery</a>
+					<a href="kayseri.html">Kayseri</a>
+					<a href="contact.html">Contact</a>
+					<a href="about.html">About</a> 
+				</li>
+			</ul>
+		</div>
 	</nav>
 	<hr>
 
-	<fieldset>
-    <legend>Please fill all fields</legend>
+	<div class="container-fluid">
+		<fieldset>
+	    	<p><b>Please fill all fields</b></p><br>
+	    	Full Name:<br>
+	    	<input type="text" name="name" required=""><br>
+	    	Email:<br>
+	    	<input type="email" name="email" required=""><br>
+	   		Comment:<br>
+			<textarea name="comment" rows="5" cols="30" placeholder="Write your comment..."> </textarea>
 
-    Full Name:<br>
-    <input type="text" name="name" required=""><br>
-    Email:<br>
-    <input type="email" name="email" required=""><br>
-   	Comment:<br>
-	<textarea name="comment" rows="5" cols="30" placeholder="Write your comment...">
-	</textarea><br>
-	</fieldset>
+			<br>
+			<input type="submit" name="submit" value="GÖNDER">
+		</fieldset>	
+
+	</div>
 		
 </body>
 </html>
